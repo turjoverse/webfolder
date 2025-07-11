@@ -63,10 +63,10 @@ div{
 
 .banner-2 {
     text-align: left;
-    max-width: 60%; /* Optional: control layout */
+    max-width: 60%; 
 }
 
 .banner-profile-picture {
-    max-width: 200px; /* Adjust as needed */
+    max-width: 200px; 
     height: auto;
 }
