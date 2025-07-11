@@ -8,6 +8,10 @@
 
   }
 
+  .header {
+    background-image: url(images/Hero-bg.png);
+    border size: 698px 1440px;
+  }
 
 nav{
     display: flex;
