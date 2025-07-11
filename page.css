@@ -1,0 +1,21 @@
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 400px;
+    font-style: normal;
+    font-variation-settings: ;
+
+  }
+
+
+nav{
+    display: flex;
+}
+nav title{
+    font-size: 34px;
+
+}
+.text-primary{
+    color: #4E47FF;
+}
