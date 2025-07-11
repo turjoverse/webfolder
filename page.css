@@ -70,3 +70,281 @@ div{
     max-width: 200px; 
     height: auto;
 }
+.testimonials {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    width: 30%;
+  }
+
+
+.class="container-2 {
+    justify-content: center;
+}
+
+
+.cta {
+    justify-content: center;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* Light grey background from the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 80px; /* Space between the text and the form */
+    max-width: 1200px;
+    width: 100%;
+}
+
+.contact-content h2 {
+    font-size: 60px; /* Large font size for "Let's Get in Touch" */
+    color: #1a1a1a; /* Dark text color */
+    font-weight: 800; /* Bold */
+    line-height: 1.1;
+    text-align: left;
+    margin: 0;
+}
+
+.contact-form-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    width: 100%;
+    max-width: 450px; /* Max width for the form container */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0; /* Light grey border */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box; /* Include padding in width */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="email"]::placeholder,
+.contact-form input[type="text"]::placeholder,
+.contact-form textarea::placeholder {
+    color: #b0b0b0; /* Light grey placeholder text */
+}
+
+.contact-form input[type="email"]:focus,
+.contact-form input[type="text"]:focus,
+.contact-form textarea:focus {
+    border-color: #6a4ff5; /* Purple border on focus */
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px; /* Min height for message box */
+}
+
+.contact-form .submit-button {
+    background-color: #6a4ff5; /* Purple button */
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-button:hover {
+    background-color: #553ac5; /* Darker purple on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .contact-section {
+        flex-direction: column;
+        padding: 30px;
+        gap: 40px;
+    }
+
+    .contact-content h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .contact-form-container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-content h2 {
+        font-size: 38px;
+    }
+
+    .contact-form-container {
+        padding: 20px;
+    }
+
+    .contact-form label,
+    .contact-form input[type="email"],
+    .contact-form input[type="text"],
+    .contact-form textarea,
+    .contact-form .submit-button {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+
+footer {
+    background-color: #f7f9fc; /* Light background color similar to the image */
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .pointer {
+    font-family: 'Arial', sans-serif; /* Assuming a bold, sans-serif font for the logo */
+    font-size: 80px; /* Large font size for "LOGO" */
+    font-weight: 900; /* Extra bold */
+    color: #4a47ed; /* Blue color for the logo */
+    margin-bottom: 20px;
+    letter-spacing: -2px; /* Slightly tighter letter spacing to match visual */
+    line-height: 1; /* Adjust line height if necessary */
+}
+
+footer p {
+    max-width: 700px; /* Limit width of the paragraph for better readability */
+    font-family: 'Arial', sans-serif; /* Assuming a sans-serif font for the text */
+    font-size: 18px;
+    color: #6a6a6a; /* Grey color for the text */
+    line-height: 1.6;
+    margin-bottom: 40px; /* Space before the list */
+}
+
+footer ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px; /* Space between list items */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center;
+}
+
+footer ul li {
+    font-family: 'Arial', sans-serif; /* Assuming a sans-serif font for list items */
+    font-size: 18px;
+    color: #6a6a6a; /* Grey color for list items */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer ul li:hover {
+    color: #4a47ed; /* Blue on hover for navigation items */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 15px;
+    }
+
+    footer .pointer {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+
+    footer ul {
+        gap: 20px;
+    }
+
+    footer ul li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 30px 10px;
+    }
+
+    footer .pointer {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    footer ul {
+        flex-direction: column; /* Stack list items vertically on very small screens */
+        gap: 10px;
+    }
+
+    footer ul li {
+        font-size: 14px;
+    }
+}
