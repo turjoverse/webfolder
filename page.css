@@ -109,7 +109,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f7fa; /* Light grey background from the image */
+    background-color: #f5f7fa; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,27 +121,27 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    gap: 80px; /* Space between the text and the form */
+    gap: 80px; 
     max-width: 1200px;
     width: 100%;
 }
 
 .contact-content h2 {
-    font-size: 60px; /* Large font size for "Let's Get in Touch" */
-    color: #1a1a1a; /* Dark text color */
-    font-weight: 800; /* Bold */
+    font-size: 60px; 
+    color: #1a1a1a; 
+    font-weight: 800; 
     line-height: 1.1;
     text-align: left;
     margin: 0;
 }
 
 .contact-form-container {
-    background-color: #ffffff; /* White background for the form */
+    background-color: #ffffff; 
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); 
     width: 100%;
-    max-width: 450px; /* Max width for the form container */
+    max-width: 450px; 
 }
 
 .contact-form .form-group {
@@ -162,11 +162,11 @@ body {
 .contact-form textarea {
     width: 100%;
     padding: 15px;
-    border: 1px solid #e0e0e0; /* Light grey border */
+    border: 1px solid #e0e0e0; 
     border-radius: 8px;
     font-size: 16px;
     color: #333;
-    box-sizing: border-box; /* Include padding in width */
+    box-sizing: border-box; 
     outline: none;
     transition: border-color 0.3s ease;
 }
@@ -174,22 +174,22 @@ body {
 .contact-form input[type="email"]::placeholder,
 .contact-form input[type="text"]::placeholder,
 .contact-form textarea::placeholder {
-    color: #b0b0b0; /* Light grey placeholder text */
+    color: #b0b0b0; 
 }
 
 .contact-form input[type="email"]:focus,
 .contact-form input[type="text"]:focus,
 .contact-form textarea:focus {
-    border-color: #6a4ff5; /* Purple border on focus */
+    border-color: #6a4ff5; 
 }
 
 .contact-form textarea {
     resize: vertical;
-    min-height: 120px; /* Min height for message box */
+    min-height: 120px; 
 }
 
 .contact-form .submit-button {
-    background-color: #6a4ff5; /* Purple button */
+    background-color: #6a4ff5; 
     color: #fff;
     border: none;
     padding: 15px 25px;
@@ -202,10 +202,9 @@ body {
 }
 
 .contact-form .submit-button:hover {
-    background-color: #553ac5; /* Darker purple on hover */
+    background-color: #553ac5; 
 }
 
-/* Responsive adjustments */
 @media (max-width: 992px) {
     .contact-section {
         flex-direction: column;
@@ -248,7 +247,7 @@ body {
 
 
 footer {
-    background-color: #f7f9fc; /* Light background color similar to the image */
+    background-color: #f7f9fc; 
     padding: 60px 20px;
     text-align: center;
     display: flex;
@@ -258,47 +257,46 @@ footer {
 }
 
 footer .pointer {
-    font-family: 'Arial', sans-serif; /* Assuming a bold, sans-serif font for the logo */
-    font-size: 80px; /* Large font size for "LOGO" */
-    font-weight: 900; /* Extra bold */
-    color: #4a47ed; /* Blue color for the logo */
+    font-family: 'Arial', sans-serif; 
+    font-size: 80px; 
+    font-weight: 900; 
+    color: #4a47ed; 
     margin-bottom: 20px;
-    letter-spacing: -2px; /* Slightly tighter letter spacing to match visual */
-    line-height: 1; /* Adjust line height if necessary */
+    letter-spacing: -2px; 
+    line-height: 1; 
 }
 
 footer p {
-    max-width: 700px; /* Limit width of the paragraph for better readability */
-    font-family: 'Arial', sans-serif; /* Assuming a sans-serif font for the text */
+    max-width: 700px; 
+    font-family: 'Arial', sans-serif; 
     font-size: 18px;
-    color: #6a6a6a; /* Grey color for the text */
+    color: #6a6a6a; 
     line-height: 1.6;
-    margin-bottom: 40px; /* Space before the list */
+    margin-bottom: 40px; 
 }
 
 footer ul {
-    list-style: none; /* Remove default list bullets */
+    list-style: none; 
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 30px; /* Space between list items */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 30px; 
+    flex-wrap: wrap; 
     justify-content: center;
 }
 
 footer ul li {
-    font-family: 'Arial', sans-serif; /* Assuming a sans-serif font for list items */
+    font-family: 'Arial', sans-serif; 
     font-size: 18px;
-    color: #6a6a6a; /* Grey color for list items */
+    color: #6a6a6a; 
     cursor: pointer;
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    transition: color 0.3s ease; 
 }
 
 footer ul li:hover {
-    color: #4a47ed; /* Blue on hover for navigation items */
+    color: #4a47ed; 
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     footer {
         padding: 40px 15px;
@@ -312,7 +310,7 @@ footer ul li:hover {
     footer p {
         font-size: 16px;
         margin-bottom: 30px;
-        max-width: 90%; /* Adjust max-width for smaller screens */
+        max-width: 90%; 
     }
 
     footer ul {
@@ -340,7 +338,7 @@ footer ul li:hover {
     }
 
     footer ul {
-        flex-direction: column; /* Stack list items vertically on very small screens */
+        flex-direction: column; 
         gap: 10px;
     }
 
