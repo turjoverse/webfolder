@@ -11,11 +11,36 @@
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px 150px;
 }
 nav title{
-    font-size: 34px;
+    font-size: 50px;
 
 }
 .text-primary{
     color: #4E47FF;
+    
+}
+nav ul li { 
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+
+}
+.btn-primary {
+    background-color: #4E47FF;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 10px;
+    border-radius: 8px;
+    padding: 10px 25px;
+    border: none;
+
+
+} 
+div{
+    text-align: center;
 }
