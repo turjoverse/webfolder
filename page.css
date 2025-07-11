@@ -10,7 +10,7 @@
 
   .header {
     background-image: url(images/Hero-bg.png);
-    border size: 698px 1440px;
+  
   }
 
 nav{
@@ -47,4 +47,26 @@ nav li a {
 } 
 div{
     text-align: center;
+}
+.banner-profile-picture {
+    width: 403px;
+    border-radius: 48px;
+
+
+}
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-2 {
+    text-align: left;
+    max-width: 60%; /* Optional: control layout */
+}
+
+.banner-profile-picture {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
 }
